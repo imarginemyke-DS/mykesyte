@@ -1,0 +1,506 @@
+.colored-section {
+    background-color: #009ACD; /* Replace with your desired color value */
+    color: #FFFFFF; /* Set text color for readability */
+    padding: 60px; /* Add padding for spacing */
+  }
+
+
+  .background-section {
+    background-image: url("messi4.webp");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 40px;
+  }
+
+
+.video-section {
+  position: relative;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+.video-section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.video-section .content {
+  position: absolute;
+  bottom: 45;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: #009ACD;
+}
+
+.video-section .content h3 {
+  font-size: 3em; /* Adjust the font size as needed */
+}
+
+
+.video-section .content .cta-button {
+  display: inline-block;
+  padding: 18px 8px;
+  border: solid;
+  border-radius: 5px;
+  border-width: 0.02cm;
+  background-color: transparent;
+  color: #d2c7c7;
+  text-decoration: font-size 3.5em;
+  margin-left: 10px;
+  transition: background-color 0.5s ease;
+}
+
+.video-section .content .cta-button:hover {
+  background-color: #009ACD;
+  padding: 22px 8px;
+  border-color: #0c5a74;
+  border-width: 0.1cm;
+  font-size: 105%;
+}
+
+
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    height: 100%;
+  }
+  
+  .centered-text {
+    text-align: center;
+  }
+
+
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #f9f9f9;
+  color: #009ACD;
+  padding: 10px;
+  font-size: 16px;
+  border: 3px double #009ACD;
+  cursor: help;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #009ACD;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #f9f9f9;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: #f9f9f9;
+  background-color: #009ACD;
+  border: 3px double #f9f9f9;
+}
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+.nav-link {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #009ACD;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #FFFFFF;
+}
+
+
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+nav ul li {
+  margin-left: 10px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black; /* Set default text color */
+  position: relative; /* Add position relative for pseudo-element */
+  font-family: "Lucida Grande", Arial, sans-serif; /* Set the font type */
+}
+
+nav ul li a:before {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #009ACD; /* Set default underline color */
+  transition: width 0.5s ease, background-color 0.5s ease; /* Add transition for smooth animation */
+}
+
+nav ul li a:hover {
+  color: #009ACD; /* Change text color on hover */
+}
+
+nav ul li a:hover:before {
+  width: 100%; /* Expand the underline on hover */
+  background-color: #009ACD; /* Change underline color on hover */
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  background-image: url("messi77.webp");
+  background-size: cover;
+  background-position: center;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #009ACD;
+  border: 1px solid #009ACD;
+  border-radius: 1px;
+  position: relative;
+  margin: 0 50px; /* Adjust the spacing between columns */
+}
+
+.column-inner {
+  overflow: hidden;
+}
+
+.column-inner img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: 150px; /* Update the height of the image */
+  width: auto; /* Update the width of the image */
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.column-inner:hover img {
+  transform: scale(1.2);
+}
+
+.column-inner:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.column-inner p {
+  position: relative;
+  z-index: 2;
+  color: purple;
+  text-align: left; /* Align the text to the left */
+}
+
+.text-large {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.text-small {
+  font-weight: bold;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+
+.column-inner .button {
+  position: absolute;
+  top: 20px; /* Adjust the top position as needed */
+  right: -10px; /* Adjust the right position as needed */
+  background-color: purple;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.column-inner .button:hover {
+  background-color: #8a2be2;
+}
+
+
+.section {
+  border-top: 1px dashed #ccc;
+  border-bottom: 1px dashed #ccc;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-heading {
+  font-weight: bold;
+  font-size: 39px;
+  text-shadow: #0a1011;
+}
+
+.section-text {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+
+.blue-sect {
+  background-color: #009ACD;
+  color: #fff;
+  padding: 40px;
+  text-align: center;
+}
+
+.sect-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.section-head {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.sect-text {
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+
+.footer-section {
+  background-color: #0b7ca1;
+  color: #fff;
+  padding: 40px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  padding: 0 10px;
+}
+
+.footer-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.footer-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 5px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-social-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-social-links li {
+  margin-right: 10px;
+}
+
+.footer-social-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+
+
+.image-section {
+  background-image: url('messi77.webp');
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  color: #391A00;
+}
+
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-item {
+  width: 32%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.image-item img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .image-item {
+    width: 48%;
+  }
+
+  .image-item img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-item {
+    width: 100%;
+  }
+
+  .image-item img {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+.text-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.text-container p {
+  margin-center: 10px;
+  color: #391A00;
+}
+
+
+
